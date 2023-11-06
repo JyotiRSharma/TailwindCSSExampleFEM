@@ -33,3 +33,18 @@ body {
   }
 }
 
+/*  */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply mt-10 bg-slate-50;
+}
+
+@layer components {
+  .btn {
+    @apply rounded-md border-2 px-2 py-1;
+  }
+}

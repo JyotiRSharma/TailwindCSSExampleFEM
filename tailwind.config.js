@@ -7,3 +7,16 @@ export default {
   },
   plugins: [],
 }
+
+// 
+
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  theme: {
+    extend: {
+      // ...
+    },
+  },
+  plugins: [],
+}
+
